@@ -153,18 +153,22 @@ section {
   text-align: center;
 }
 
-.steps {
+.intro p {
   text-align: center;
+}
+
+.steps {
   background: #fce138;
 }
 
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -200,7 +204,6 @@ section {
 }
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -248,7 +251,6 @@ section {
 
 .contact-container {
   background: #024e76;
-  text-align: center;
 }
 
 .contact-container h2 {
@@ -291,4 +293,8 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.flex-row {
+  display: flex;
 }
